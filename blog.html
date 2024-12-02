@@ -1,0 +1,397 @@
+<!doctype html>
+<html class="scrollbar-thin scrollbar-track-batmanBg scrollbar-thumb-batmanRed overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/vecteezy_the-initials-w-logo-is-simple-and-modern8868_.jpg">
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+
+
+    <title>Wayne Enterprises</title>
+</head>
+
+<body class="bg-batmanBg font-poppins overflow-x-hidden">
+
+    <div
+        class="hero-bg relative h-screen bg-[url('https://pbs.twimg.com/media/FKIPMaHXwAQz3zK?format=png&name=900x900')] bg-auto bg-center mx-auto max-h-[900px] sm-max:h-[50vh] sm-max:!bg-auto sm-max:!bg-no-repeat custom-range:px-8">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-[##6b56562e] opacity-30"></div>
+
+        <!-- ---------------------------------------------- Header --------------------------------------------->
+        <nav
+            class="relative text-white flex justify-between p-2 py-4 h-24 container mx-auto max-w-[1140px] bg-transparent sm-max:px-12">
+
+            <div class="logo">
+                <img src="images/wayne-enterpize-logo.png" alt="" class="h-full transform scale-[1.8]">
+            </div>
+
+            <!-- The burger button: Using a hidden checkbox and label for the toggle -->
+            <input type="checkbox" id="burger-toggle" class="peer hidden" />
+            <label for="burger-toggle" class="cursor-pointer p-4 pt-[6px] flex items-center justify-center">
+                <!-- Mobile Menu -->
+                <div class="hidden relative z-50 flex-col justify-between items-center w-24 h-16 m-auto mx-0 sm-max:flex"
+                    id="burger-menu">
+                    <img src="images/bat-removebg.png" alt="bat-menu">
+                </div>
+
+
+
+            </label>
+
+            <!-- Mobile Menu Items -->
+            <div class="absolute transition-all duration-1200 ease-in h-screen w-screen translate-x-full peer-checked:-left-[50%] peer-checked:translate-x-1/2 flex justify-center items-center flex-col bg-black z-10 top-0"
+                id="burger-menu-item">
+
+
+
+
+                <ul class="w-[100%] flex flex-col justify-center items-center gap-6">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="our_services.html">Our
+                            Services</a></li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="about_us.html">About Us</a>
+                    </li>
+                    <li class="transition-all duration-300 ease-in hover:text-[rgb(185,11,12)]"><a
+                            href="blog.html">Blog</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="get_in_touch.html">Get In
+                            Touch</a></li>
+                </ul>
+            </div>
+            <!-- End Mobile Menu -->
+
+            <ul class="flex justify-end gap-6p items-center sm-max:hidden w-3/5">
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="index.html">Home</a></li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="our_services.html">Our Services</a>
+                </li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="about_us.html">About Us</a>
+                </li>
+                <li class="transition-all duration-300 ease-in hover:text-[rgb(185,11,12)]"><a href="blog.html">Blog</a>
+                </li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="get_in_touch.html">Get In Touch</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- ---------------------------------------------- End Header  ------------------------------------------>
+
+        <!-- ------------------------------------------ Hero Section------------------------------------------>
+
+        <main
+            class="
+           sm-max:items-center sm-max:px-2.5 flex items-end justify-center flex-col gap-5 h-[67%] relative container mx-auto max-w-[1140px]">
+            <div class="hero-text flex items-end justify-center flex-col sm-max:items-center">
+                <p class="font-poppins text-fuchsia-50 text-4xl sm-max:text-sm">From the Shadows</p>
+                <h2 class="font-bangers text-fuchsia-50 text-6xl sm-max:text-4xl">
+                    Wayne Enterprises Insights
+                </h2>
+
+                <p class="font-poppins text-fuchsia-50 text-sm sm-max:text-[12px] sm-max:text-center">The City Speaks,
+                    We Listen. Our doors are always open to the people of Gotham and beyond.</p>
+            </div>
+            <div class="btns space-x-6">
+                <!-- "Our Services" Button -->
+                <a href="#news">
+                    <button
+                        class="bg-batmanRed text-white py-2 px-6 rounded-lg shadow-md hover:bg-[#232834] hover:text-white transition duration-300 ease-in font-bangers tracking-wide">
+                        Read Now
+                    </button>
+                </a>
+
+
+            </div>
+
+        </main>
+    </div>
+    <!-- ------------------------------------------ End Hero Section------------------------------------------>
+
+    <!-- ------------------------------------------ Fourth Section Blogs ------------------------------------------>
+    <section class="bg-batmanBg" id="news">
+        <div class="container px-5 py-8 pb-12 mx-auto">
+            <div class="flex flex-col">
+                <div class="h-1 flex justify-center bg-gray-200 rounded overflow-hidden">
+                    <div class="w-64 h-full bg-batmanRed"></div>
+                </div>
+
+                <div class="flex justify-center flex-wrap flex-col items-center py-6 mb-12">
+                    <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0 text-center">News from
+                        the Shadows</h1>
+
+
+                </div>
+                <div
+                    class="flex items-center justify-evenly flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 sm-max:container sm-max:mx-auto custom-range:flex-col custom-range:gap-12">
+                    <div
+                        class="p-4 md:w-[31%]  bg-cyan-50 rounded-md  transition-all duration-300 ease-in hover:bg-batmanRed hover:text-white group sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/wallpapersden.com_creepy-joker-smile_1336x768.jpg">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Mysterious Clown Sightings Spark Concern Downtown
+                        </h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            Reports of a grinning figure disrupting traffic near Amusement Mile have Gothamites on edge.
+                            Officials dismiss it as a prank, but whispers of the Joker persist.</p>
+                        <a
+                            class="text-indigo-500 inline-flex items-center mt-3 transition-all duration-300 ease-in group-hover:text-white cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div
+                        class="p-4 md:w-[31%] bg-cyan-50 rounded-md  transition-all duration-300 ease-in hover:bg-batmanRed group hover:text-white sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/Arkham-Asylum-gate.webp">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Wayne Foundation Funds Arkham Renovationsr</h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            The Wayne Foundation is stepping in to fund critical upgrades to Arkham Asylum. Critics
+                            question whether Gotham’s most infamous residents can truly be rehabilitated.</p>
+                        <a
+                            class="text-indigo-500 transition-all duration-300 ease-in group-hover:text-white inline-flex items-center mt-3 cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div
+                        class="p-4 md:w-[31%] bg-cyan-50 rounded-md transition-all duration-300 ease-in hover:bg-batmanRed hover:text-white group sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/Lucius-Foxs.avif">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Lucius Fox Spearheads Gotham Safety Initiative</h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            The genius behind WayneTech’s success, has introduced new citywide surveillance
+                            drones to combat crime. But in Gotham,
+                            justice always seems to walk a fine line..</p>
+                        <a
+                            class="text-indigo-500 transition-all duration-300 ease-in group-hover:text-white inline-flex items-center mt-3 cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="flex items-center justify-evenly flex-wrap pt-16 sm:-m-4 -mx-4 -mb-10 -mt-4 sm-max:container sm-max:mx-auto custom-range:flex-col custom-range:gap-12">
+                    <div
+                        class="p-4 md:w-[31%] bg-cyan-50 rounded-md  transition-all duration-300 ease-in hover:bg-batmanRed hover:text-white group sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/thumb-1920-1337072.jpeg">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Phantom Vigilante: Urban Legend or Gotham’s Guardian?
+                        </h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            Saw of a caped figure at top Wayne Tower? Bruce Wayne laughed off questions about the
+                            vigilante’s connection to his
+                            company, saying, “I prefer my adventures indoors.</p>
+                        <a
+                            class="text-indigo-500 inline-flex items-center mt-3 transition-all duration-300 ease-in group-hover:text-white cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div
+                        class="p-4 md:w-[31%] bg-cyan-50 rounded-md  transition-all duration-300 ease-in hover:bg-batmanRed group hover:text-white sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/3-way-split-of-masked-riddler-from-the-batman-batman-riddler-from-year-one-and-unmasked-riddler.avif">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Riddler’s Cult Fallout: How Gotham Stands United</h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            The chaos caused by Riddler’s followers during Gotham’s mayoral election left scars on the
+                            city. W.E has initiated support programs for affected citizens.</p>
+                        <a
+                            class="text-indigo-500 transition-all duration-300 ease-in group-hover:text-white inline-flex items-center mt-3 cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div
+                        class="p-4 md:w-[31%]  bg-cyan-50 rounded-md transition-all duration-300 ease-in hover:bg-batmanRed hover:text-white group sm:mb-0 mb-6 cursor-pointer sm-max:mb-12 custom-range:w-[80%]">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full"
+                                src="images/35e9c5-Grand Theft Auto V 1_9_2017 8_55_48 PM.png">
+                        </div>
+                        <h2
+                            class="text-xl font-medium title-font text-gray-900 mt-5 transition-all duration-300 ease-in group-hover:text-white">
+                            Bat-Signal Seen from Wayne Tower: Coincidence?</h2>
+                        <p
+                            class="min-h-[104px] text-base leading-relaxed mt-2 transition-all duration-300 ease-in group-hover:text-white">
+                            Gotham’s PD tested the Bat-Signal atop Wayne Tower, Observers couldn’t help but
+                            wonder: why does it seem so perfectly placed there? Lucius Fox
+                            had no comment..</p>
+                        <a
+                            class="text-indigo-500 transition-all duration-300 ease-in group-hover:text-white inline-flex items-center mt-3 cursor-pointer">Read
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <a href="#"
+                class="relative top-12 flex justify-end items-center pb-12 sm-max:justify-center custom-range:justify-center">
+                <button
+                    class="bg-batmanRed text-white py-2 px-6 rounded-lg shadow-md hover:bg-[#232834] hover:text-white transition duration-300 ease-in font-bangers tracking-wide">
+                    Read More News
+                </button>
+            </a>
+        </div>
+
+
+
+
+        </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------ End Fourth Section Blog  -------------------------------------->
+
+
+    <!--------------------------------------------- Footer -------------------------------------------------------->
+    <footer class="min-h-72 bg-[#232834] p-4">
+        <div class="upper-footer flex items-center justify-between p-2 container mx-auto">
+            <div class="ft-logo h-32">
+                <img src="images/wayne-enterpize-logo.png" alt="footer-logo" class="h-[100%]">
+            </div>
+            <div class="social-icons flex justify-center items-center gap-8">
+                <a href="#" class="text-white hover:text-gray-300 p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1
+                "><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"
+                    class="text-white hover:text-gray-300 p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#"
+                    class="text-white hover:text-gray-300  p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="h-1 flex justify-center bg-gray-200 rounded overflow-hidden container mx-auto">
+            <div class="w-64 h-full bg-batmanRed"></div>
+        </div>
+        <div
+            class="middle-footer flex items-center justify-between p-2 pt-14 pb-14 container mx-auto sm-max:flex-wrap sm-max:justify-end sm-max:gap-12">
+            <div class="footer-quote  w-1/3">
+                <p class="text-white text-xl font-bangers tracking-wide sm-max:text-sm">"Endurance builds legacy, and
+                    legacy shapes
+                    the future." – Bruce Wayne
+
+            </div>
+            <div
+                class="footer-menu-items flex items-start justify-start gap-5  w-1/3 container mx-auto custom-range:justify-center">
+                <ul class="flex flex-col justify-center items-start gap-6 text-white sm-max:gap-3">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="about_us.html">About Us</a>
+                    </li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="blog.html">Blog</a>
+                    </li>
+
+                </ul>
+
+                <ul class="flex flex-col justify-center items-start gap-6 text-white  w-1/3">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="our_services.html">Our Services</a>
+                    </li>
+
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="get_in_touch.html">Get In Touch</a>
+                    </li>
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="footer-address">
+                <p class="text-white text-xl font-bangers tracking-wide text-right sm-max:text-sm">Wayne Enterprise
+                    Headquarters
+                </p>
+                <p class="text-white text-xl font-bangers tracking-wide text-right sm-max:text-sm">
+
+                    1007 Mountain Drive,<br>
+                    Gotham City, NJ 07001,<br>
+                    United States
+                </p>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <div class="lower-footer flex justify-center items-center py-4 px-4 bg-black">
+        <p class="text-white font-poppins tracking-wide">Copyright 2024 Wayne
+            Enterprises. All rights reserved.</p>
+    </div>
+    <!--------------------------------------------- End Footer ---------------------------------------------------->
+
+
+</body>
+
+</html>

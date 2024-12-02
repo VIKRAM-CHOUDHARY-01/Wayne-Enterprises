@@ -1,0 +1,521 @@
+<!doctype html>
+<html class="scrollbar-thin scrollbar-track-batmanBg scrollbar-thumb-batmanRed overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/vecteezy_the-initials-w-logo-is-simple-and-modern8868_.jpg">
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+
+
+    <title>Wayne Enterprises</title>
+</head>
+
+<body class="bg-batmanBg font-poppins overflow-x-hidden">
+
+    <div
+        class="hero-bg relative h-screen bg-[url('https://w.wallhaven.cc/full/0q/wallhaven-0qj5jl.jpg')] bg-cover bg-center mx-auto max-h-[900px] sm-max:h-[50vh] sm-max:!bg-auto sm-max:!bg-no-repeat custom-range:px-8">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-[##6b56562e] opacity-30"></div>
+
+        <!-- ---------------------------------------------- Header --------------------------------------------->
+        <nav
+            class="relative text-white flex justify-between p-2 py-4 h-24 container mx-auto max-w-[1140px] bg-transparent sm-max:px-12">
+
+            <div class="logo">
+                <img src="images/wayne-enterpize-logo.png" alt="" class="h-full transform scale-[1.8]">
+            </div>
+
+            <!-- The burger button: Using a hidden checkbox and label for the toggle -->
+            <input type="checkbox" id="burger-toggle" class="peer hidden" />
+            <label for="burger-toggle" class="cursor-pointer p-4 pt-[6px] flex items-center justify-center">
+                <!-- Mobile Menu -->
+                <div class="hidden relative z-50 flex-col justify-between items-center w-24 h-16 m-auto mx-0 sm-max:flex"
+                    id="burger-menu">
+                    <img src="images/bat-removebg.png" alt="bat-menu">
+                </div>
+
+
+
+            </label>
+
+            <!-- Mobile Menu Items -->
+            <div class="absolute transition-all duration-1200 ease-in h-screen w-screen translate-x-full peer-checked:-left-[50%] peer-checked:translate-x-1/2 flex justify-center items-center flex-col bg-black z-10 top-0"
+                id="burger-menu-item">
+
+
+
+
+                <ul class="w-[100%] flex flex-col justify-center items-center gap-6">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="our_services.html">Our
+                            Services</a></li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="about_us.html">About Us</a>
+                    </li>
+                    <li class="transition-all duration-300 ease-in hover:text-[rgb(185,11,12)]"><a
+                            href="blog.html">Blog</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                            href="get_in_touch.html">Get In
+                            Touch</a></li>
+                </ul>
+            </div>
+            <!-- End Mobile Menu -->
+
+            <ul class="flex justify-end gap-6p items-center sm-max:hidden w-3/5">
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="index.html">Home</a></li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="our_services.html">Our Services</a>
+                </li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="about_us.html">About Us</a>
+                </li>
+                <li class="transition-all duration-300 ease-in hover:text-[rgb(185,11,12)]"><a href="blog.html">Blog</a>
+                </li>
+                <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in"><a
+                        href="get_in_touch.html">Get In Touch</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- ---------------------------------------------- End Header  ------------------------------------------>
+
+        <!-- ------------------------------------------ Hero Section------------------------------------------>
+
+        <main
+            class="
+           sm-max:items-center sm-max:px-2.5 flex items-end justify-center flex-col gap-5 h-[67%] relative container mx-auto max-w-[1140px]">
+            <div class="hero-text flex items-end justify-center flex-col sm-max:items-center">
+                <p class="font-poppins text-fuchsia-50 text-4xl sm-max:text-sm">Get in Touch with</p>
+                <h2 class="font-bangers text-fuchsia-50 text-6xl sm-max:text-4xl">
+                    Wayne Enterprises
+                </h2>
+
+                <p class="font-poppins text-fuchsia-50 text-sm sm-max:text-[12px] sm-max:text-center">The City Speaks,
+                    We Listen. Our doors are always open to the people of Gotham and beyond.</p>
+            </div>
+            <div class="btns space-x-6">
+                <!-- "Our Services" Button -->
+                <a href="#let_talk">
+                    <button
+                        class="bg-batmanRed text-white py-2 px-6 rounded-lg shadow-md hover:bg-[#232834] hover:text-white transition duration-300 ease-in font-bangers tracking-wide">
+                        Let's Talk
+                    </button>
+                </a>
+
+
+            </div>
+
+        </main>
+    </div>
+    <!-- ------------------------------------------ End Hero Section------------------------------------------>
+
+
+    <!-- ------------------------------------------ Second Section ------------------------------------------>
+    <section class="bg-batmanBg" id="let_talk">
+        <div class="container px-5 py-8 pb-8 mx-auto sm-max:pb-1">
+            <div class="flex flex-col">
+                <div class="h-1 flex justify-center bg-gray-200 rounded overflow-hidden">
+                    <div class="w-64 h-full bg-batmanRed"></div>
+                </div>
+                <div class="flex justify-center flex-wrap sm:flex-row flex-col pt-6  sm-max:mb-0">
+                    <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl sm:mb-0 text-center sm-max:text-lg">
+                        Reach Out Directly</h1>
+
+                </div>
+                <div
+                    class="inner-sec pt-16 px-5 py-8 flex justify-between items-start sm-max:flex-wrap sm-max:gap-10 sm-max:flex-col-reverse">
+
+                    <div
+                        class="text-sec w-[60%] flex flex-col gap-4 items-start sm-max:w-[100%] sm-max:items-center bg-white border border-transparent rounded-2xl">
+
+                        <form class="space-y-6 w-full p-3">
+                            <!-- Name -->
+                            <div>
+                                <label for="name" class="block text-lg font-poppins">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your full name"
+                                    class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-batmanRed" />
+                            </div>
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="block text-lg font-poppins">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email address"
+                                    class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-batmanRed" />
+                            </div>
+                            <!-- Subject -->
+                            <div>
+                                <label for="subject" class="block text-lg font-poppins">Subject</label>
+                                <input type="text" id="subject" placeholder="What’s this about?"
+                                    class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-batmanRed" />
+                            </div>
+                            <!-- Message -->
+                            <div>
+                                <label for="message" class="block text-lg font-poppins">Your Message</label>
+                                <textarea id="message" placeholder="Write your message here..." rows="5"
+                                    class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-batmanRed"></textarea>
+                            </div>
+                            <!-- Submit Button -->
+                            <div>
+                                <button type="submit"
+                                    class="w-full py-2 px-6 bg-batmanRed text-white text-lg font-poppins rounded-lg hover:bg-[#232834] transition duration-300">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+
+
+
+
+                        <!-- <a href="our_services.html">
+                            <button
+                                class="bg-batmanRed text-white py-2 px-6 rounded-lg shadow-md hover:bg-[#232834] hover:text-white transition duration-300 ease-in font-bangers tracking-wide">
+                                Learn More
+                            </button>
+                        </a> -->
+
+
+
+                    </div>
+                    <div
+                        class="photo-sec w-[40%] flex justify-center items-center sm-max:w-[100%] sm-max:hidden custom-range:hidden">
+                        <img src="images/calling_bruce.jpg" alt="" class="shadow-white h-[538px]">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------ End Second Section ------------------------------------------>
+
+    <!-- ------------------------------------------ Third Section - FAQ ------------------------------------------>
+    <section class="bg-batmanBg">
+        <div class="container px-5 py-8 pb-12 mx-auto">
+            <div class="flex flex-col">
+                <div class="h-1 flex justify-center bg-gray-200 rounded overflow-hidden">
+                    <div class="w-64 h-full bg-batmanRed"></div>
+                </div>
+
+                <div class="flex justify-center flex-wrap flex-col items-center py-6 mb-12">
+                    <h1
+                        class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0 text-center sm-max:text-[16px]">
+                        FAQs -
+                        The Riddles of Wayne Enterprises</h1>
+                    <p class="text-white text-xs py-2">
+                        Even in a city like Gotham, questions deserve answers. Here, we shed light on the mysteries
+                        surrounding Wayne Enterprises
+                    </p>
+
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-12">
+                <!-- Question Cart 1 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-1" class="hidden peer" />
+                    <label for="faq-toggle-1"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: What is Wayne Enterprises’ mission?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        By day, we’re shaping Gotham’s future with groundbreaking technology and philanthropic efforts.
+                        By night? Well, let’s just say some legacies run deep in the shadows.
+                        Whether it’s transforming the city skyline or supporting those in need, we’re dedicated to
+                        keeping Gotham thriving—even when the clownish antics of a few attempt to disrupt it.
+                    </div>
+                </div>
+
+                <!-- Question Cart 2 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-2" class="hidden peer" />
+                    <label for="faq-toggle-2"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: How does Wayne Enterprises contribute to Gotham’s community?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        Through the Wayne Foundation, we fund shelters, educational programs, and mental health
+                        facilities like Arkham. We believe everyone deserves a second chance—even those whose pasts are
+                        as colorful as their makeup. After all, Gotham’s strength lies in its people, no matter how many
+                        smiles or scars they wear.
+                    </div>
+                </div>
+
+                <!-- Question Cart 3 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-3" class="hidden peer" />
+                    <label for="faq-toggle-3"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%]  custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: Can I visit Wayne Tower?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        Wayne Tower is open to the public, featuring an observation deck with stunning views of Gotham.
+                        However, certain areas remain restricted for safety reasons. As for the rumors about secret
+                        underground facilities, we assure you: Wayne Tower is built on solid ground. It’s not like we’re
+                        hiding any kind of Batcave-esque infrastructure.
+                    </div>
+                </div>
+                <!-- Question Cart 4 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-4" class="hidden peer" />
+                    <label for="faq-toggle-4"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: What makes Wayne Enterprises different from other corporations?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        We pride ourselves on integrity and innovation. Unlike others who play games with Gotham’s
+                        future (some even with a deck of cards), we invest in the city’s progress. Our commitment
+                        extends to creating technologies that protect, empower, and inspire hope—because Gotham deserves
+                        no less.
+                    </div>
+                </div>
+
+                <!-- Question Cart 5 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-5" class="hidden peer" />
+                    <label for="faq-toggle-5"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: Are the rumors about WayneTech gadgets true?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        WayneTech develops state-of-the-art gadgets designed to solve real-world problems. Whether it’s
+                        wearable tech, advanced AI, or communication systems, we aim to make life better for everyone in
+                        Gotham. And no, we don’t endorse any unauthorized use of our tech by masked vigilantes or
+                        theatrical troublemakers.
+                    </div>
+                </div>
+
+                <!-- Question Cart 6 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-6" class="hidden peer" />
+                    <label for="faq-toggle-6"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: Is there a connection between Wayne Enterprises and Gotham’s vigilante?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        Wayne Enterprises is a corporation built on transparency. While some may speculate about ties to
+                        Gotham’s infamous caped figure, we focus on lawful innovation. The resemblance between some of
+                        our equipment and certain vigilante tools is coincidental—or the work of a copycat with a flair
+                        for drama.
+                    </div>
+                </div>
+                <!-- Question Cart 7 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-7" class="hidden peer" />
+                    <label for="faq-toggle-7"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row peer-checked:bg-red-600 peer-checked:text-white shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: What’s next for Wayne Enterprises?
+                            <div class="drop absolute right-14 sm-max:hidden"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        Wayne Enterprises is preparing to launch several groundbreaking projects, from clean energy
+                        initiatives to advanced urban solutions. Gotham’s future may have its share of chaos—every city
+                        does—but rest assured, we’ll always be here, turning madness into innovation.
+                    </div>
+                </div>
+                <!-- Question Cart 8 -->
+                <div class="flex items-center justify-center flex-col relative w-[100%] sm-max:mb-6">
+                    <!-- Hidden Checkbox to Control Toggle -->
+                    <input type="checkbox" id="faq-toggle-8" class="hidden peer" />
+                    <label for="faq-toggle-8"
+                        class="transition-all duration-300 ease-in sm:-m-4 -mx-4 -mb-10 -mt-4 bg-white w-[80%] py-4 shadow-faq cursor-pointer rounded-lg peer-checked:bg-faqColour sm-max:w-[100%] custom-range:w-[90%]">
+                        <div
+                            class="q-cart text-xl text-black relative -right-4 flex flex-row shadow-faq font-semibold sm-max:text-[14px] sm-max:relative sm-max:left-1/2 sm-max:transform sm-max:-translate-x-1/2 sm-max:pl-3">
+                            Q: Does Bruce Wayne actually run the company?
+                            <div class="drop absolute right-14 sm-max:hidden">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- Answer Section -->
+                    <div
+                        class="ans transition-all duration-300 ease-in hidden bg-white w-[80%] py-4 px-5 rounded-b-lg max-h-0 peer-checked:max-h-[500px] peer-checked:block peer-checked:pt-4 peer-checked:pb-4 peer-checked:mt-2.5 sm-max:w-[100%] sm-max:peer-checked:mt-[2.1rem] custom-range:w-[90%]">
+                        Bruce Wayne is deeply committed to the vision his family built. While he occasionally steps away
+                        for philanthropic ventures, Lucius Fox ensures the company runs smoothly. As for Mr. Wayne’s
+                        habit of disappearing at night—let’s just say he values Gotham’s nightlife in ways few
+                        understand.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- End Third Section FAQ -->
+
+    <!--------------------------------------------- Footer -------------------------------------------------------->
+    <footer class="min-h-72 bg-[#232834] p-4">
+        <div class="upper-footer flex items-center justify-between p-2 container mx-auto">
+            <div class="ft-logo h-32">
+                <img src="images/wayne-enterpize-logo.png" alt="footer-logo" class="h-[100%]">
+            </div>
+            <div class="social-icons flex justify-center items-center gap-8">
+                <a href="#" class="text-white hover:text-gray-300 p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1
+                "><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"
+                    class="text-white hover:text-gray-300 p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#"
+                    class="text-white hover:text-gray-300  p-3 border border-white rounded-lg h-10 w-10 flex justify-center items-center transition-all duration-300 ease-in hover:border-batmanRed hover:bg-batmanRed hover:translate-x-1"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="h-1 flex justify-center bg-gray-200 rounded overflow-hidden container mx-auto">
+            <div class="w-64 h-full bg-batmanRed"></div>
+        </div>
+        <div
+            class="middle-footer flex items-center justify-between p-2 pt-14 pb-14 container mx-auto sm-max:flex-wrap sm-max:justify-end sm-max:gap-12">
+            <div class="footer-quote  w-1/3">
+                <p class="text-white text-xl font-bangers tracking-wide sm-max:text-sm">"Endurance builds legacy, and
+                    legacy shapes
+                    the future." – Bruce Wayne
+
+            </div>
+            <div
+                class="footer-menu-items flex items-start justify-start gap-5  w-1/3 container mx-auto custom-range:justify-center">
+                <ul class="flex flex-col justify-center items-start gap-6 text-white sm-max:gap-3">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="about_us.html">About Us</a>
+                    </li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="blog.html">Blog</a>
+                    </li>
+
+                </ul>
+
+                <ul class="flex flex-col justify-center items-start gap-6 text-white  w-1/3">
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="our_services.html">Our Services</a>
+                    </li>
+
+                    <li class="hover:text-[rgb(185,11,12)] transition-all duration-150 ease-in">
+                        <a href="get_in_touch.html">Get In Touch</a>
+                    </li>
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="footer-address">
+                <p class="text-white text-xl font-bangers tracking-wide text-right sm-max:text-sm">Wayne Enterprise
+                    Headquarters
+                </p>
+                <p class="text-white text-xl font-bangers tracking-wide text-right sm-max:text-sm">
+
+                    1007 Mountain Drive,<br>
+                    Gotham City, NJ 07001,<br>
+                    United States
+                </p>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <div class="lower-footer flex justify-center items-center py-4 px-4 bg-black">
+        <p class="text-white font-poppins tracking-wide">Copyright 2024 Wayne
+            Enterprises. All rights reserved.</p>
+    </div>
+    <!--------------------------------------------- End Footer ---------------------------------------------------->
+
+
+</body>
+
+</html>
