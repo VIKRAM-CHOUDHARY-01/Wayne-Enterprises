@@ -1077,6 +1077,10 @@ video {
   background-image: url('https://images6.alphacoders.com/120/thumb-1920-1203147.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/img-s-msn-com\.akamaized\.net\/tenant\/amp\/entityid\/AA1po4pR\.img\?w\=768\&h\=384\&m\=6\&x\=436\&y\=164\&s\=301\&d\=301\'\)\] {
+  background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1po4pR.img?w=768&h=384&m=6&x=436&y=164&s=301&d=301');
+}
+
 .bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-photo\/11-september-illustration-patriot-day-usa-poster-banner-illustration_837518-17546\.jpg\?w\=996\'\)\] {
   background-image: url('https://img.freepik.com/premium-photo/11-september-illustration-patriot-day-usa-poster-banner-illustration_837518-17546.jpg?w=996');
 }
@@ -1093,16 +1097,12 @@ video {
   background-image: url('https://puzzleaday.wordpress.com/wp-content/uploads/2020/12/batman-answer.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/batman\/images\/2\/2b\/Alan_Wayne\.jpg\/revision\/latest\?cb\=20120225205555\'\)\] {
-  background-image: url('https://static.wikia.nocookie.net/batman/images/2/2b/Alan_Wayne.jpg/revision/latest?cb=20120225205555');
+.bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/batman\/images\/2\/2b\/Alan_Wayne\.jpg\/revision\/latest\/thumbnail\/width\/360\/height\/450\?cb\=20120225205555\'\)\] {
+  background-image: url('https://static.wikia.nocookie.net/batman/images/2/2b/Alan_Wayne.jpg/revision/latest/thumbnail/width/360/height/450?cb=20120225205555');
 }
 
-.bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/dark-knight-trilogy\/images\/8\/89\/Alfred\.jpg\/revision\/latest\/scale-to-width-down\/1000\?cb\=20201115090750\'\)\] {
-  background-image: url('https://static.wikia.nocookie.net/dark-knight-trilogy/images/8/89/Alfred.jpg/revision/latest/scale-to-width-down/1000?cb=20201115090750');
-}
-
-.bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/p__\/images\/8\/8a\/Thomas_Wayne_Joker_Movie_001\.jpg\/revision\/latest\?cb\=20200206221219\&path-prefix\=protagonist\'\)\] {
-  background-image: url('https://static.wikia.nocookie.net/p__/images/8/8a/Thomas_Wayne_Joker_Movie_001.jpg/revision/latest?cb=20200206221219&path-prefix=protagonist');
+.bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/batman\/images\/e\/ec\/BD-3487\.jpg\/revision\/latest\?cb\=20080418033124\'\)\] {
+  background-image: url('https://static.wikia.nocookie.net/batman/images/e/ec/BD-3487.jpg/revision/latest?cb=20080418033124');
 }
 
 .bg-\[url\(\'https\:\/\/static\.wikia\.nocookie\.net\/the-batman-universe\/images\/2\/2b\/Martha_Wayne-Photo\.png\/revision\/latest\?cb\=20220314184724\'\)\] {
@@ -1674,6 +1674,10 @@ video {
     margin-bottom: 3rem;
   }
 
+  .sm-max\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .sm-max\:mb-6 {
     margin-bottom: 1.5rem;
   }
@@ -1691,6 +1695,10 @@ video {
   }
 
   .sm-max\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .sm-max\:w-full {
     width: 100%;
   }
 
@@ -1743,6 +1751,10 @@ video {
     background-size: auto !important;
   }
 
+  .sm-max\:\!bg-contain {
+    background-size: contain !important;
+  }
+
   .sm-max\:\!bg-no-repeat {
     background-repeat: no-repeat !important;
   }
@@ -1755,6 +1767,11 @@ video {
   .sm-max\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .sm-max\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .sm-max\:px-2\.5 {
@@ -1832,6 +1849,10 @@ video {
     width: 90%;
   }
 
+  .custom-range\:w-full {
+    width: 100%;
+  }
+
   .custom-range\:flex-col {
     flex-direction: column;
   }
@@ -1844,8 +1865,17 @@ video {
     gap: 3rem;
   }
 
+  .custom-range\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .custom-range\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .custom-range\:text-center {
+    text-align: center;
   }
 }            
