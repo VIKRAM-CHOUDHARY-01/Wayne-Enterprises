@@ -1686,6 +1686,10 @@ video {
     display: none;
   }
 
+  .sm-max\:h-20 {
+    height: 5rem;
+  }
+
   .sm-max\:h-8 {
     height: 2rem;
   }
