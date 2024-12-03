@@ -33,17 +33,18 @@
 
         <!-- ---------------------------------------------- Header --------------------------------------------->
         <nav
-            class="relative text-white flex justify-between p-2 py-4 h-24 container mx-auto max-w-[1140px] bg-transparent sm-max:px-12">
+            class="relative text-white flex justify-between p-2 py-4 h-24 container mx-auto max-w-[1140px] bg-transparent sm-max:px-4">
 
             <div class="logo">
-                <img src="images/wayne-enterpize-logo.png" alt="" class="h-full transform scale-[1.8]">
+                <img src="images/wayne-enterpize-logo.png" alt=""
+                    class="h-full transform scale-[1.8] sm-max:scale-[1] sm-max:h-[112%]">
             </div>
 
             <!-- The burger button: Using a hidden checkbox and label for the toggle -->
             <input type="checkbox" id="burger-toggle" class="peer hidden" />
-            <label for="burger-toggle" class="cursor-pointer p-4 pt-[6px] flex items-center justify-center">
+            <label for="burger-toggle" class="cursor-pointer p-4 pt-[6px] flex items-center justify-center sm-max:pt-4">
                 <!-- Mobile Menu -->
-                <div class="hidden relative z-50 flex-col justify-between items-center w-24 h-16 m-auto mx-0 sm-max:flex"
+                <div class="hidden relative z-50 flex-col justify-between items-center w-24 h-16 m-auto mx-0 sm-max:flex sm-max:h-8 sm-max:w-16"
                     id="burger-menu">
                     <img src="images/bat-removebg.png" alt="bat-menu">
                 </div>
@@ -662,8 +663,8 @@
 
     <!--------------------------------------------- Footer -------------------------------------------------------->
     <footer class="min-h-72 bg-[#232834] p-4">
-        <div class="upper-footer flex items-center justify-between p-2 container mx-auto">
-            <div class="ft-logo h-32">
+        <div class="upper-footer flex items-center justify-between p-2 container mx-auto sm-max:gap-4 sm-max:pr-8">
+            <div class="ft-logo h-32 sm-max:h-auto">
                 <img src="images/wayne-enterpize-logo.png" alt="footer-logo" class="h-[100%]">
             </div>
             <div class="social-icons flex justify-center items-center gap-8">
