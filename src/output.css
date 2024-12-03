@@ -919,10 +919,6 @@ video {
   gap: 3rem;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .gap-4 {
   gap: 1rem;
 }
@@ -1759,6 +1755,10 @@ video {
 
   .sm-max\:gap-12 {
     gap: 3rem;
+  }
+
+  .sm-max\:gap-2 {
+    gap: 0.5rem;
   }
 
   .sm-max\:gap-3 {
